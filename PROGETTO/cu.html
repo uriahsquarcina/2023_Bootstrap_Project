@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chalk</title>
+    <title>Contact Us</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -52,7 +52,7 @@
                             <a class="nav-link" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="cu.html">Contact Us</a>
+                            <a class="nav-link" href="#">Contact Us</a>
                         </li>
 
 
@@ -61,43 +61,31 @@
             </nav>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <img src="../img/gessetti.jfif" style="width:inherit"/>
-        </div>
 
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Colored Chalk</h4>
-                    <p class="card-text">GIOTTO Robercolor Colored Chalk, 10 x Chalk Pack, Dustless & Super Washable,
-                        Ideal for Children, Parties and Schools</p>
+    <h1> Contact Us</h1>
+    <form method="GET" action="" name="Return Order Form">
+        <label for="fName">First Name:</label>
+        <input type="text" name="fName" id="fName" value="Enter First Name" /><br />
 
-                    <form action="/action_page.php">
-                        <label for="cars">Choose from:</label>
-                        <select name="cars" id="cars">
-                            <option value="volvo">8 pz.</option>
-                            <option value="saab">16 pz.</option>
-                            <option value="opel">24 pz.</option>
-                            <option value="audi">64 pz.</option>
-                            <option value="volvo">48 pz.</option>
-                            <option value="volvo">8 pz. large</option>
-                            <option value="volvo">16 pz. large</option>
-                            <option value="volvo">8 pz. jumbo</option>
-                            <option value="volvo">24 pz. twistable</option>
-                        </select>
-                    </form>
+        <label for="lName">Last Name:</label>
+        <input type="text" name="fName" id="lName" value="Enter Last Name" /><br />
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" value="Enter Email" /><br />
+
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city" value="Enter City" /><br />
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" name="phone" id="phone" value="Enter Phone #" /><br />
 
 
-                    <form method="GET" action="#">
-                        <h7>Quantity</h7>
-                        <input class="form-control form-control-sm" type="text" value="1">
-                    </form>
-                    <a href="#" class="btn btn-dark">Buy</a>
-                </div>
-            </div>
-        </div>
-    </div>
+
+        <textarea name="comments" rows="20" cols="50">
+        Tell us your opinion
+    </textarea><br />
+        <input type="submit" value="Take my data" />
+
 </div>
 </body>
 </html>
